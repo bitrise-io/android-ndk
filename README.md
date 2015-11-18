@@ -1,4 +1,4 @@
-# android-ndk
+# Android NDK Docker Image
 
 Android with pre-installed NDK docker image.
 
