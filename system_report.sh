@@ -10,6 +10,10 @@ echo
 
 echo
 echo "=== Revision / ID ======================"
+if [ -z "$BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK" ] ; then
+  echo " [!] No BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK defined!"
+  exit 1
+fi
 echo "* BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK: $BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK"
 echo "========================================"
 echo
