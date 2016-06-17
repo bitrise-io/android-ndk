@@ -17,8 +17,8 @@ fi
 echo "* BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK: $BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK"
 echo "========================================"
 echo
-echo "$ cat $ANDROID_NDK_HOME/RELEASE.TXT"
-cat "${ANDROID_NDK_HOME}/RELEASE.TXT"
+echo "$ cat $ANDROID_NDK_HOME/source.properties"
+cat "${ANDROID_NDK_HOME}/source.properties"
 echo
 echo "$ tree -L 2 /opt/android-ndk"
 tree -L 2 /opt/android-ndk
