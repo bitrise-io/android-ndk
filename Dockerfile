@@ -16,7 +16,7 @@ RUN apt-get update -qq
 RUN mkdir /opt/android-ndk-tmp
 RUN cd /opt/android-ndk-tmp && wget -q http://dl.google.com/android/repository/android-ndk-r12-linux-x86_64.zip
 # uncompress
-RUN cd /opt/android-ndk-tmp && unzip android-ndk-r12-linux-x86_64.zip
+RUN cd /opt/android-ndk-tmp && unzip -q android-ndk-r12-linux-x86_64.zip
 # move to it's final location
 RUN cd /opt/android-ndk-tmp && mv ./android-ndk-r12 /opt/android-ndk
 # remove temp dir
