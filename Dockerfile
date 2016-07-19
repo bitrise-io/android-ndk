@@ -1,4 +1,4 @@
-FROM bitriseio/docker-android:latest
+FROM bitriseio/docker-android-alpha:latest
 
 ENV ANDROID_NDK_HOME /opt/android-ndk
 
