@@ -17,8 +17,16 @@ fi
 echo "* BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK: $BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK"
 echo "========================================"
 echo
-echo "$ cat $ANDROID_NDK_HOME/source.properties"
-cat "${ANDROID_NDK_HOME}/source.properties"
+if [ -f "${ANDROID_NDK_HOME}/source.properties" ] ; then
+  echo "$ cat ${ANDROID_NDK_HOME}/source.properties"
+  cat "${ANDROID_NDK_HOME}/source.properties"
+elif [ -f "${ANDROID_NDK_HOME}/RELEASE.TXT" ] ; then
+  echo "$ cat ${ANDROID_NDK_HOME}/RELEASE.TXT"
+  cat "${ANDROID_NDK_HOME}/RELEASE.TXT"
+else
+  echo "No NDK version file found!"
+  exit 1
+fi
 echo
 echo "$ tree -L 2 /opt/android-ndk"
 tree -L 2 /opt/android-ndk
