@@ -14,11 +14,11 @@ RUN apt-get update -qq
 
 # download
 RUN mkdir /opt/android-ndk-tmp
-RUN cd /opt/android-ndk-tmp && wget -q http://dl.google.com/android/repository/android-ndk-r12-linux-x86_64.zip
+RUN cd /opt/android-ndk-tmp && wget -q https://dl.google.com/android/repository/android-ndk-r13b-linux-x86_64.zip
 # uncompress
-RUN cd /opt/android-ndk-tmp && unzip -q android-ndk-r12-linux-x86_64.zip
+RUN cd /opt/android-ndk-tmp && unzip -q android-ndk-r13b-linux-x86_64.zip
 # move to it's final location
-RUN cd /opt/android-ndk-tmp && mv ./android-ndk-r12 /opt/android-ndk
+RUN cd /opt/android-ndk-tmp && mv ./android-ndk-r13b ${ANDROID_NDK_HOME}
 # remove temp dir
 RUN rm -rf /opt/android-ndk-tmp
 # add to PATH
