@@ -1,3 +1,9 @@
+## `v2016_10_27_1`
+
+* `android-ndk-r13b-linux-x86_64` - thanks to [@mickele](https://github.com/mickele)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/19)
+* `cmake` v3.6.3155560 - thanks to [@mickele](https://github.com/mickele)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/20)
+
+
 ## `2016_06_18_1`
 
 * `android-ndk-r12-linux-x86_64` - thanks to [@ThorstenBux](https://github.com/bitrise-docker/android-ndk/pull/2)
