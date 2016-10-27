@@ -31,3 +31,9 @@ echo
 echo "$ tree -L 2 /opt/android-ndk"
 tree -L 2 /opt/android-ndk
 echo
+
+echo
+echo "=== Pre-installed tool versions ========"
+ver_line="$(cmake --version | head -n 1)" ;         echo "* cmake: $ver_line"
+echo "========================================"
+echo
