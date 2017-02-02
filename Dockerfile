@@ -26,22 +26,6 @@ ENV PATH ${PATH}:${ANDROID_NDK_HOME}
 
 
 # ------------------------------------------------------
-# --- Android CMake
-
-# download
-RUN mkdir /opt/android-cmake-tmp
-RUN cd /opt/android-cmake-tmp && wget -q https://dl.google.com/android/repository/cmake-3.6.3155560-linux-x86_64.zip -O android-cmake.zip
-# uncompress
-RUN cd /opt/android-cmake-tmp && unzip -q android-cmake.zip -d android-cmake
-# move to its final location
-RUN cd /opt/android-cmake-tmp && mv ./android-cmake ${ANDROID_HOME}/cmake
-# remove temp dir
-RUN rm -rf /opt/android-cmake-tmp
-# add to PATH
-ENV PATH ${PATH}:${ANDROID_HOME}/cmake/bin
-
-
-# ------------------------------------------------------
 # --- Cleanup and rev num
 
 # Cleaning
