@@ -34,6 +34,6 @@ echo
 
 echo
 echo "=== Pre-installed tool versions ========"
-ver_line="$(cmake --version | head -n 1)" ;         echo "* cmake: $ver_line"
+# ver_line="$(cmake --version | head -n 1)" ;         echo "* cmake: $ver_line"
 echo "========================================"
 echo
