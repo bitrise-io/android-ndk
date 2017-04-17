@@ -1,3 +1,7 @@
+## `v2017_04_18_1`
+
+* NDK installation using temporary directory changed to piped decompression with `bsdtar` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/55)
+
 ## `v2017_03_29_1`
 
 * `android-ndk-r14b-linux-x86_64` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/50)
