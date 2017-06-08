@@ -37,3 +37,4 @@ echo "=== Pre-installed tool versions ========"
 # ver_line="$(cmake --version | head -n 1)" ;         echo "* cmake: $ver_line"
 echo "========================================"
 echo
+ver_line="$(bsdtar --version | head -n 1)" ;         echo "* bsdtar: $ver_line"
