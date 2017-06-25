@@ -1,7 +1,7 @@
 FROM bitriseio/docker-android-alpha:latest
 
 ENV ANDROID_NDK_HOME /opt/android-ndk
-ENV ANDROID_NDK_VERSION r15
+ENV ANDROID_NDK_VERSION r15b
 
 
 # ------------------------------------------------------
@@ -33,6 +33,6 @@ ENV PATH ${PATH}:${ANDROID_NDK_HOME}
 # ------------------------------------------------------
 # --- Cleanup and rev num
 
-ENV BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK v2017_06_08_1
+ENV BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK v2017_06_26_1
 CMD bitrise -version
 
