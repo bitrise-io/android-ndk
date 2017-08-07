@@ -1,3 +1,7 @@
+## `v2017_08_06_1`
+
+* `android-ndk-r15c-linux-x86_64` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/75)
+
 ## `v2017_06_26_1`
 
 * `android-ndk-r15b-linux-x86_64` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/67)
