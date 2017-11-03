@@ -3,6 +3,6 @@
 # is pre-cached on the [bitrise.io](https://www.bitrise.io/) Linux/Android Virtual Machines.
 # Read more about how versions are handled in the `README.md`.
 
-FROM bitriseio/android-ndk-alpha:v2017_10_27-10_20-b741
+FROM bitriseio/android-ndk-alpha:v2017_11_03-02_51-b749
 
 CMD bitrise --version
