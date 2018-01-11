@@ -1,4 +1,4 @@
-FROM bitriseio/docker-android-alpha:latest
+FROM quay.io/bitriseio/android:alpha
 
 ENV ANDROID_NDK_HOME /opt/android-ndk
 ENV ANDROID_NDK_VERSION r16b
