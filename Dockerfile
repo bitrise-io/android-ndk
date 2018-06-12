@@ -1,7 +1,7 @@
 FROM quay.io/bitriseio/android:alpha
 
 ENV ANDROID_NDK_HOME /opt/android-ndk
-ENV ANDROID_NDK_VERSION r17
+ENV ANDROID_NDK_VERSION r17b
 
 
 # ------------------------------------------------------
@@ -33,6 +33,6 @@ ENV PATH ${PATH}:${ANDROID_NDK_HOME}
 # ------------------------------------------------------
 # --- Cleanup and rev num
 
-ENV BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK v2018_05_09_1
+ENV BITRISE_DOCKER_REV_NUMBER_ANDROID_NDK v2018_06_13_1
 CMD bitrise -version
 
