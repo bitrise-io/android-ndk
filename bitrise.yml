@@ -71,16 +71,16 @@ workflows:
             #!/usr/bin/env bash
             set -ex
             
-            if [ $(docker info -f '{{.Images}}') -ne 0 ]; then
-              docker rmi -f $(docker images -aq)
-            fi
+            docker rmi -f quay.io/bitriseio/android-ndk
+            docker rmi -f quay.io/bitriseio/android
     - script@1.1.0:
-        title: docker infos
+        title: docker infos & images
         inputs:
         - content: |
             #!/bin/bash
             set -ex
 
+            docker images
             df -kh ./
             docker info
     - script@1.1.0:
