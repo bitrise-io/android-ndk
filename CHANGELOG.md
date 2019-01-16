@@ -1,3 +1,7 @@
+# `v2019_01_17_1`
+
+* `android-ndk-r19-linux-x86_64` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/163)
+
 # `v2018_09_23_1`
 
 * `android-ndk-r18-linux-x86_64` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/145)
