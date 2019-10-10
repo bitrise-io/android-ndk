@@ -39,3 +39,5 @@ with the container.
 Every time you change your `Dockerfile` you'll have to run `docker-compose build` again,
 so your next `docker-compose run` will run in the environment you specify in
 the `Dockerfile`.
+
+what does action open even means `beitris test`
