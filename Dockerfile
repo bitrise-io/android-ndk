@@ -2,6 +2,7 @@ FROM quay.io/bitriseio/android:alpha
 
 ENV ANDROID_NDK_HOME /opt/android-ndk
 ENV ANDROID_NDK_VERSION r21c
+ENV GCE_METADATA_ROOT 127.0.0.1
 
 
 # ------------------------------------------------------
