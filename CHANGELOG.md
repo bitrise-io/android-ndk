@@ -1,3 +1,7 @@
+# `v2020_07_23_1`
+
+*  Added the gce metadata root address 
+
 # `v2020_05_29_1`
 
 * `android-ndk-r21c-linux-x86_64` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/243)
