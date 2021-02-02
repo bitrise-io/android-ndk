@@ -1,3 +1,7 @@
+# `v2020_12_15_1`
+
+* `android-ndk-r22-linux-x86_64` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/277)
+
 # `v2020_08_28_1`
 
 * `android-ndk-r21d-linux-x86_64` - thanks to [koral--](https://github.com/koral--)'s [PR](https://github.com/bitrise-docker/android-ndk/pull/258)
